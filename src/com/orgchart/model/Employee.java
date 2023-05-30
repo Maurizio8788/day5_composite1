@@ -1,6 +1,9 @@
 package com.orgchart.model;
 
 public interface Employee {
-	public String getInformation();
+
+	public String getOrganizationInformation();
+	
+
 	
 }

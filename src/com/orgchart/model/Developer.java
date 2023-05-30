@@ -5,8 +5,8 @@ public class Developer implements Employee {
 	private String firstName;
 	private String lastName;
 	private String position;
-
-
+	
+	
 	public Developer(String firstName, String lastName, String position) {
 		super();
 		this.firstName = firstName;
@@ -15,7 +15,7 @@ public class Developer implements Employee {
 	}
 
 
-	public String getInformation() {
+	public String getOrganizationInformation() {
 		return "The employee: " + firstName + " " + lastName + " with position " + position;
 	}
 	

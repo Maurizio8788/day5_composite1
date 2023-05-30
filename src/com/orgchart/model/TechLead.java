@@ -15,10 +15,10 @@ public class TechLead extends Developer implements Employee
     }
 
     @Override
-    public String getInformation() {
-        StringBuilder organizationInfo = new StringBuilder(super.getInformation());
+    public String getOrganizationInformation() {
+        StringBuilder organizationInfo = new StringBuilder(super.getOrganizationInformation());
         for(Employee employee : this.developers) {
-            organizationInfo.append("\n\t").append(employee.getInformation());
+            organizationInfo.append("\n\t").append(employee.getOrganizationInformation());
         }
         return organizationInfo.toString();
     }
